@@ -38,8 +38,11 @@ header {
     
     text-align: center;
     background-image: linear-gradient(to top, #185733fd, #2a8351,#3fcc7c); 
-    margin-right: -10px;
-    padding: 0px 0px 1px 0px;
+    margin:auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+    
 }
 
 .h1principal {
@@ -85,13 +88,22 @@ main{
     margin: auto;
     margin-top: 0px;
     background-color: #f0f8ff;
-    max-width: 800px;
-    min-width: 400px;
+    max-width: 1000px;
+    min-width: 300px;
     padding: 15px;
+    box-shadow: 0px 0px 15px rgb(4, 53, 22);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
 }
-.img-pequena {
+
+main img {
+    width: 100%;
+}
+
+ main img.pequena {
+    width: 50%;
     display: block;
-    justify-content: center;
     margin: auto;
 }
 
@@ -138,6 +150,10 @@ aside{
     background-color: #98dfb8be;
     border-radius: 10px ;
     
+}
+
+aside ul {
+    columns: 2;
 }
 
 aside li {
