@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inconsolata:wght@200&family=Joan&display=swap');
+
+@font-face {
+    font-family:'Android';
+    src: url('./fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+
+
+
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063d1e;
+
+
+    --fonte0: Arial, Helvetica, sans-serif;
+    --fonte1: 'Bebas Neue', 'cursive';
+    --fonte2: 'Android', 'cursive';
+          
+}
+
+body {
+    background-color: #46cc83;
+    
+
+}
+
+header { 
+    
+    text-align: center;
+    background-image: linear-gradient(to top, #185733fd, #2a8351,#3fcc7c); 
+    margin-right: -10px;
+    padding: 0px 0px 1px 0px;
+}
+
+.h1principal {
+    font-style: var(--fonte0);
+    font-size: 35px;
+    color: aliceblue;
+}
+.paragrafotipo1 {
+    font-style: var(--fonte0);
+    font-size: 18px;
+    color: aliceblue;
+}
+     
+nav {
+     list-style-type: none;
+     display: flex;
+     padding: 0px 0px 8px 20px;
+     justify-content:flex-start;
+     gap: 30px;
+     color:#fff;
+}
+
+nav > li {
+    color:#fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+
+}
+
+nav > li:hover {
+    background-color: #7a857e;
+    color: #063d1e;
+}
+
+.x{
+    cursor: pointer;
+}
+
+main{
+    margin: auto;
+    margin-top: 0px;
+    background-color: #f0f8ff;
+    max-width: 800px;
+    min-width: 400px;
+    padding: 15px;
+}
+.img-pequena {
+    display: block;
+    justify-content: center;
+    margin: auto;
+}
+
+.strong {
+    color: #23b163;
+}
+
+.titulodamateria{
+    font-family: var(--fonte2);
+}
+
+.subtitulo {
+    font-family: var(--fonte2);
+    background-image: linear-gradient( to right, #a9ffd0 , #c2ffdd, #f0f8ff );
+    color:#2a8351;
+}
+
+.paragrafotipo2{
+    font-style: var(--fonte0);
+    font-size: 18px;
+    text-indent: 30px;
+}
+
+.video{
+    margin: -15px -15px -15px -15px ;
+        background-color: #1A5C37;
+    display: flex;
+    justify-content: center;
+
+}
+
+h3{
+    margin: 0px -4px 0px -4px;
+    background-color: #23b163;
+    border-radius: 8px;
+    font-size: 30px;
+    padding: 5px 5px 5px 5px;
+}
+
+aside{
+    margin-top: 30px;
+    padding: 0px 5px;
+    display: inline-block;
+    background-color: #98dfb8be;
+    border-radius: 10px ;
+    
+}
+
+li {
+    list-style-type: square;
+}
+
+
+footer{
+    margin: 15px -10px -10px -10px ;
+    text-align: center;
+    color: #f0f8ff;
+    background-color: #1A5C37 ;
+}

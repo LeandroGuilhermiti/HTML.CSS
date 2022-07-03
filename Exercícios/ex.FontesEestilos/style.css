@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+    body {
+    background-image: linear-gradient(to right, rgb(167, 167, 255), rgba(245, 141, 167, 0.651)); 
+    }
+
+    main {
+        background-color: antiquewhite;
+        width: 600px;
+        padding: 10px;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 10px 10px 15px rgba(87, 2, 42, 0.356); /*o primeiro parâmetro é o para direita, o segundo para baixo e terceiro para desfocar a sombra*/
+
+    }
+
+    h1 {
+        text-align: center;
+        color: rgb(86, 0, 247);
+        font: normal bold 50px 'Dancing Script', cursive;
+    }
+
+    h2{
+        color: rgba(245, 141, 167, 0.877) ;
+        font: normal lighter 30px 'Dancing Script', cursive;
+    }
+
+    p{
+        text-indent: 30px;
+        font-size: 20px;
+        font: normal lighter 20px 'Joan', serif;
+    }
